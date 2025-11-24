@@ -1,0 +1,39 @@
+/* ページ全体のデザイン */
+body {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  color: #333;
+  padding-top: 100px;
+  margin: 0;
+}
+
+/* 見出しをキラッと */
+h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* テキスト */
+p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* ボタン */
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #ff6f61;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ffe3e3;
+}
